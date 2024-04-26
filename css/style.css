@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.top-bar{
+	height: 50px;line-height: 50px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	color:#ffc113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #056cb6; background-color: #ffc113
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056cb6; padding-top: 0;padding-bottom: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color:white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #ffc113
+}
+main{
+	min-height: 500px
+}
+footer{
+	min-height: 200px
+}
+.gach-chan{
+	border-bottom: 2px solid #ffc113
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #ffc113
+}
+.bottom-bar{
+	height: 40px;line-height: 40px
+}
+#service a{
+	text-decoration: none;color: #4b4b4b
+}
+#service a:hover{
+	color: #ffc113 
+}
+#why{
+	width: 100%;min-height: 350px;background-image: url("../images/why.jpg");background-repeat: no-repeat;background-size: cover;background-position: center top
+}
+#client .hinh{
+	position: relative
+}
+#client .before{
+	position: absolute;left: 0;top: 0; padding: 10px;background-color: rgba(255,255,255,0.5)
+}
+#client .after{
+	position: absolute;left: 50%;top: 0; padding: 10px;background-color: rgba(255,255,255,0.5)
+}
+#cn .noi-dung img{
+	width: 80px;height: 80px
+}
+#cn .noi-dung{
+	display: flex; flex-direction: column;justify-content: center;align-items: center
+}
+#banner{
+	width: 100%;min-height: 350px;background-image: url("../images/pageheader.png");background-repeat: no-repeat;background-size: cover;background-position: center left;position: relative
+}
+#kh-hinhanh .hinh{
+	position: relative
+}
+#kh-hinhanh .before{
+	position: absolute;left: 0;top:-4%; padding: 10px;background-color: #777777
+}
+#kh-hinhanh .after{
+	position: absolute;left: 50%;top:-4%; padding: 10px;background-color: #777777
+}
+#tin-tuc a{
+	text-decoration: none; font-size: 18px;font-weight: bold;color: rgba(62,62,62,1.00)
+}
+#tin-tuc a:hover{
+	color: #ffc113
+}
